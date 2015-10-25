@@ -1,0 +1,160 @@
+Week 1
+Team 1 vs Team 13
+Team 2 vs Team 12
+Team 3 vs Team 11
+Team 4 vs Team 10
+Team 5 vs Team 9
+Team 6 vs Team 8
+
+Week 2
+Team 2 vs Team 1
+Team 3 vs Team 13
+Team 4 vs Team 12
+Team 5 vs Team 11
+Team 6 vs Team 10
+Team 7 vs Team 9
+
+Week 3
+Team 3 vs Team 2
+Team 4 vs Team 1
+Team 5 vs Team 13
+Team 6 vs Team 12
+Team 7 vs Team 11
+Team 8 vs Team 10
+
+Week 4
+Team 4 vs Team 3
+Team 5 vs Team 2
+Team 6 vs Team 1
+Team 7 vs Team 13
+Team 8 vs Team 12
+Team 9 vs Team 11
+
+Week 5
+Team 5 vs Team 4
+Team 6 vs Team 3
+Team 7 vs Team 2
+Team 8 vs Team 1
+Team 9 vs Team 13
+Team 10 vs Team 12
+
+Week 6
+Team 6 vs Team 5
+Team 7 vs Team 4
+Team 8 vs Team 3
+Team 9 vs Team 2
+Team 10 vs Team 1
+Team 11 vs Team 13
+
+Week 7
+Team 7 vs Team 6
+Team 8 vs Team 5
+Team 9 vs Team 4
+Team 10 vs Team 3
+Team 11 vs Team 2
+Team 12 vs Team 1
+
+Week 8
+Team 8 vs Team 7
+Team 9 vs Team 6
+Team 10 vs Team 5
+Team 11 vs Team 4
+Team 12 vs Team 3
+Team 13 vs Team 2
+
+Week 9
+Team 9 vs Team 8
+Team 10 vs Team 7
+Team 11 vs Team 6
+Team 12 vs Team 5
+Team 13 vs Team 4
+Team 1 vs Team 3
+
+Week 10
+Team 10 vs Team 9
+Team 11 vs Team 8
+Team 12 vs Team 7
+Team 13 vs Team 6
+Team 1 vs Team 5
+Team 2 vs Team 4
+
+Week 11
+Team 11 vs Team 10
+Team 12 vs Team 9
+Team 13 vs Team 8
+Team 1 vs Team 7
+Team 2 vs Team 6
+Team 3 vs Team 5
+
+Week 12
+Team 12 vs Team 11
+Team 13 vs Team 10
+Team 1 vs Team 9
+Team 2 vs Team 8
+Team 3 vs Team 7
+Team 4 vs Team 6
+
+Week 13
+Team 13 vs Team 12
+Team 1 vs Team 11
+Team 2 vs Team 10
+Team 3 vs Team 9
+Team 4 vs Team 8
+Team 5 vs Team 7
+
+Week 14
+Team 1 vs Team 13
+Team 2 vs Team 12
+Team 3 vs Team 11
+Team 4 vs Team 10
+Team 5 vs Team 9
+Team 6 vs Team 8
+
+Week 15
+Team 2 vs Team 1
+Team 3 vs Team 13
+Team 4 vs Team 12
+Team 5 vs Team 11
+Team 6 vs Team 10
+Team 7 vs Team 9
+
+Week 16
+Team 3 vs Team 2
+Team 4 vs Team 1
+Team 5 vs Team 13
+Team 6 vs Team 12
+Team 7 vs Team 11
+Team 8 vs Team 10
+
+Week 17
+Team 4 vs Team 3
+Team 5 vs Team 2
+Team 6 vs Team 1
+Team 7 vs Team 13
+Team 8 vs Team 12
+Team 9 vs Team 11
+
+Week 18
+Team 5 vs Team 4
+Team 6 vs Team 3
+Team 7 vs Team 2
+Team 8 vs Team 1
+Team 9 vs Team 13
+Team 10 vs Team 12
+
+Week 19
+Team 6 vs Team 5
+Team 7 vs Team 4
+Team 8 vs Team 3
+Team 9 vs Team 2
+Team 10 vs Team 1
+Team 11 vs Team 13
+
+Week 20
+Team 7 vs Team 6
+Team 8 vs Team 5
+Team 9 vs Team 4
+Team 10 vs Team 3
+Team 11 vs Team 2
+Team 12 vs Team 1
+
