@@ -4,7 +4,6 @@ from random import shuffle
 from itertools import groupby
 
 app = Flask("ABL")
-app.debug = True
 
 db = dataset.connect('sqlite:///mydatabase.db')
 mydata = db['data']
@@ -70,4 +69,4 @@ def generate_shedule():
     return redirect(url_for('get_edit_page'))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=80)
