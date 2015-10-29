@@ -1,0 +1,19 @@
+<!doctype html>
+<title>ABL Schedule Editor</title>
+<div class=page>
+  <h1>ABL Edit Page</h1>
+
+  <form action="{{ url_for('generate_shedule') }}" method=post>
+    <h3>Teams</h3>
+    <textarea name="teams" rows="14" cols="50">{{ teams }}</textarea>
+    <h3>Locations</h3>
+    <textarea name="locations" rows="7" cols="50">{{ locations }}</textarea>
+    <h3>Dates</h3>
+    <textarea name="dates" rows="10" cols="50">{{ dates }}</textarea>
+    <div>
+      <input type='submit' value='Save'>
+    </div>
+  </form>
+
+  {% block body %}{% endblock %}
+</div>

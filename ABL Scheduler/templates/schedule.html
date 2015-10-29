@@ -1,0 +1,10 @@
+<!doctype html>
+<title>ABL Schedule</title>
+<div class=page>
+  {% for date in schedule %}
+    <h3>{{ date[0] }}</h3>
+    {% for game in date[1] %}
+      <div>{{game['team1']}} vs {{game['team2']}} at {{ game['location'] }}</div>
+    {% endfor %}
+  {% endfor %}
+</div>

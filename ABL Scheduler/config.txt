@@ -1,4 +1,0 @@
-{
-  "Weeks":20,
-  "NumberOfGamesPerWeek":6
-}
