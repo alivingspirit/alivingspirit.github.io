@@ -1,0 +1,30 @@
+<!doctype html>
+<title>ABL Schedule</title>
+<div class=page>
+    {% for date in schedule %}
+        <h3>{{ date[0] }}</h3>
+        {% for game in date[1] %}
+            <form action="{{url_for('edit_schedule_entry') }}" method="post">
+                <div>
+                    <input type="hidden" name="id" value="{{game['id']}}" />
+                    <input type="text" name="date" value="{{game['date']}}" />
+                    <input type="text" name="team1" value="{{game['team1']}}" /> vs
+                    <input type="text" name="team2" value="{{game['team2']}}" /> at
+                    <input type="text" name="location" value="{{game['location']}}" />
+                    <input type="submit" name="Update" value="Update" >
+                    <input type="submit" name="Delete" value="Delete" >
+                </div>
+            </form>
+        {% endfor %}
+    {% endfor %}
+    <form action="{{url_for('edit_schedule_entry') }}" method="post">
+        <div>
+            Add: <br>
+            Date: <input type="text" name="date" /> <br>
+            Team1: <input type="text" name="team1" />  <br>
+            Team2: <input type="text" name="team2" />  <br>
+            Location: <input type="text" name="location" /> <br>
+            <input type="submit" name="Add" value="Add" />
+        </div>
+    </form>
+</div>
