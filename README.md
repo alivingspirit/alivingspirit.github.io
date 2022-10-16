@@ -1,4 +1,5 @@
 # Noticate.io
+![# Noticate.io](logo.png)
 ## Coming Soon
 
 Noticate will be an online service to notify you for all updates on the web to your favorite messaging app. 
