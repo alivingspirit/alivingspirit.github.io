@@ -15,7 +15,7 @@
     <script>
         const container = document.querySelector('#example');
         const hot = new Handsontable(container, {
-            colHeaders: ['Day #', 'Gregorian Day', 'Hebrew Day', 'Pasukim'],
+            colHeaders: ['Day #', 'Gregorian Day', 'Hebrew Day', 'Pasukim', '# of Pasukim'],
             collapsibleColumns: true,
             height: '800',
             columns: [
@@ -35,6 +35,10 @@
                 {
                     type: 'text',
                     data: 'sections'
+                },
+                {
+                    type: 'numeric',
+                    data: 'num_of_pasukim'
                 }
             ],
             renderAllRows: false,
@@ -44,7 +48,15 @@
         });
 
         async function init_data(){
-            let response = await fetch('./calculation.json');
+            let response = await fetch('./calculation.json', {
+              method: "GET",
+              catch: (error) => {
+                // do something if the request fails
+                fetch('./data', {
+                  method: "GET",
+                });
+              }
+            });
             let data = await response.json();
             hot.loadData(data);
         }
