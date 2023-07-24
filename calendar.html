@@ -46,8 +46,7 @@
         async function init_data(){
             let response = await fetch('./calculation.json');
             let data = await response.json();
-            let days_data = data.days_data;
-            hot.loadData(days_data);
+            hot.loadData(data);
         }
 
         function export_csv(){
