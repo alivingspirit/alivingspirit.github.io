@@ -1,0 +1,60 @@
+<html lang="HE">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=Windows-1255">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.css" />
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <input type="button" onclick="export_csv()" value="Export As CSV"/>
+        <div id="example"></div>
+    </body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+    <script>
+        const container = document.querySelector('#example');
+        const hot = new Handsontable(container, {
+            colHeaders: ['Day #', 'Gregorian Day', 'Hebrew Day', 'Pasukim'],
+            collapsibleColumns: true,
+            height: '800',
+            columns: [
+                {
+                    type: 'numeric',
+                    data: 'num'
+                },
+                {
+                    type: 'date',
+                    data: 'gregorian_day',
+                    dateFormat: 'YYYY-MM-DD',
+                },
+                {
+                    type: 'text',
+                    data: 'hebrew_day'
+                },
+                {
+                    type: 'text',
+                    data: 'sections'
+                }
+            ],
+            renderAllRows: false,
+            filters: true,
+            dropdownMenu: true,
+            licenseKey: 'non-commercial-and-evaluation' // for non-commercial use only
+        });
+
+        async function init_data(){
+            let response = await fetch('./calculation.json');
+            let data = await response.json();
+            let days_data = data.days_data;
+            hot.loadData(days_data);
+        }
+
+        function export_csv(){
+            const exportPlugin = hot.getPlugin('exportFile');
+            exportPlugin.downloadFile('csv', {filename: 'Schedule'})
+        }
+
+        init_data();
+    </script>
+</html>
